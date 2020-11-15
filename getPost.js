@@ -18,7 +18,7 @@ app.use(jsonParser);
 
 app.engine("handlebars", handlebars.engine);
 app.set("view engine", "handlebars");
-app.set("port", 3000);
+app.set("port", 10292);
 
 // My code below ------------------------------------------------------
 
