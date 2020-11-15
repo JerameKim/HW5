@@ -1,0 +1,14 @@
+<h1>{{type}} Request Received</h1>
+<h2>URL query string table</h2>
+<table border="1">
+    <tr>
+        <th>Parameter</th>
+        <th>Value</th>
+    </tr>
+    {{#each URLData}}
+    <tr>
+        <td>{{this.name}}</td>
+        <td>{{this.value}}</td>
+    </tr>
+    {{/each}}
+</table>
